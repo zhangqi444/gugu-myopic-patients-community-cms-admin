@@ -1,0 +1,7 @@
+#import "./tagFragment.gql"
+
+mutation deleteTag ($id: ID!) {
+  deleteTag (id: $id) {
+    ...tag
+  }
+}

@@ -1,0 +1,7 @@
+#import "./adminUserFragment.gql"
+
+query adminUserLogin ($email: String!, $password: String!) {
+  adminUserLogin (email: $email, password: $password) {
+    ...user
+  }
+}

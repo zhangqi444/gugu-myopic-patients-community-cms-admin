@@ -1,0 +1,10 @@
+query doctors ($option: Option!) {
+  doctors (option: $option) {
+    _id
+    name
+    organization {
+      name
+      _id
+    }
+  }
+}

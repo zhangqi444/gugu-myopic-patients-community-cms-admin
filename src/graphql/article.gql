@@ -1,0 +1,7 @@
+#import "./articleFragment.gql"
+
+query article ($id: ID!) {
+  article (id: $id) {
+    ...article
+  }
+}

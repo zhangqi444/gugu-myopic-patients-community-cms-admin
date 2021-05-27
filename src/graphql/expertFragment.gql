@@ -1,0 +1,42 @@
+fragment expert on Expert {
+  _id
+  name
+  gender
+  birthYear
+  avatar
+
+  province
+  city
+
+  phone
+  email
+
+  introduction
+  title
+  otherTitles
+  organization {
+    name
+    _id
+  }
+  departments {
+    name
+    location
+    subDepartments {
+      name
+    }
+  }
+  specialty
+  specialtyTags
+  tags {
+    name
+    _id
+  }
+  qualification
+
+  isBlocked
+  isActive
+  isVerified
+  isDeleted
+  createdAt
+  updatedAt
+}

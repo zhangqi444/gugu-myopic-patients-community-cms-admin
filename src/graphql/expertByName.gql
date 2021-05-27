@@ -1,0 +1,10 @@
+query expertByName ($name: String!) {
+  expertByName (name: $name) {
+    _id
+    name
+    organization {
+      name
+      _id
+    }
+  }
+}

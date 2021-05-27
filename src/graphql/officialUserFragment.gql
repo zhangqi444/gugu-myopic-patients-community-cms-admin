@@ -1,0 +1,28 @@
+fragment officialUser on OfficialUser {
+  _id
+	isBlocked
+	isActive
+	isVerified
+	isDeleted
+	createdAt
+	updatedAt
+	name
+	avatar
+	gender
+	province
+	city
+	birthYear
+	email
+	phone
+	introduction
+	srcType
+	src
+  organization {
+    name
+    _id
+  }
+  tags {
+    name
+    _id
+  }
+}

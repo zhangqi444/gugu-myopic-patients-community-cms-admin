@@ -1,0 +1,7 @@
+#import "./officialUserFragment.gql"
+
+mutation addOfficialUser ($officialUserInput: OfficialUserInput!) {
+  addOfficialUser (officialUserInput: $officialUserInput) {
+    ...officialUser
+  }
+}

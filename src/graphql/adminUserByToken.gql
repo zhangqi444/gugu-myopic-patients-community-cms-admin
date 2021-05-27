@@ -1,0 +1,7 @@
+#import "./adminUserFragment.gql"
+
+query adminUserByToken {
+  adminUserByToken {
+    ...user
+  }
+}

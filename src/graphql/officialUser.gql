@@ -1,0 +1,7 @@
+#import "./officialUserFragment.gql"
+
+query officialUser ($id: ID!) {
+  officialUser (id: $id) {
+    ...officialUser
+  }
+}

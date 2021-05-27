@@ -1,0 +1,9 @@
+
+fragment tag on Tag {
+  _id
+  name
+  isBlocked
+  isDeleted
+  createdAt
+  updatedAt
+}

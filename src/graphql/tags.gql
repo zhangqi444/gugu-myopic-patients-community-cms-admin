@@ -1,0 +1,7 @@
+#import "./tagFragment.gql"
+
+query tags ($option: Option!, $condition: Condition) {
+  tags (option: $option, condition: $condition) {
+    ...tag
+  }
+}

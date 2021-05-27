@@ -1,0 +1,7 @@
+#import "./expertFragment.gql"
+
+mutation addExpertAdmin ($expertInput: ExpertInput!) {
+  addExpertAdmin (expertInput: $expertInput) {
+    ...expert
+  }
+}

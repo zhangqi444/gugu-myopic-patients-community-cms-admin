@@ -1,0 +1,7 @@
+#import "./organizationFragment.gql"
+
+query organizations ($option: Option!) {
+  organizations (option: $option) {
+    ...organization
+  }
+}

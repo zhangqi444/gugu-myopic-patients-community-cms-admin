@@ -1,0 +1,7 @@
+#import "./doctorFragment.gql"
+
+query doctors ($option: Option!) {
+  doctors (option: $option) {
+    ...doctor
+  }
+}

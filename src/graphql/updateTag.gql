@@ -1,0 +1,7 @@
+#import "./tagFragment.gql"
+
+mutation updateTag ($id: ID!, $tagInput: TagInput!) {
+  updateTag (id: $id, tagInput: $tagInput) {
+    ...tag
+  }
+}

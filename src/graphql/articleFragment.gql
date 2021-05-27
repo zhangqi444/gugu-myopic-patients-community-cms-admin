@@ -1,0 +1,80 @@
+fragment article on Article {
+  _id
+  tags {
+    name
+    _id
+  }
+  src
+  srcType
+  mediaType
+  title
+  content
+  video {
+    url
+    vid
+    source
+  }
+  cover
+  officialUser {
+    name
+    organization {
+      _id
+      name
+    }
+    _id
+  }
+  doctor {
+    name
+    organization {
+      _id
+      name
+    }
+    _id
+  }
+  expert {
+    name
+    organization {
+      _id
+      name
+    }
+    _id
+  }
+  authorType
+  collectCount
+  thumbCount
+  shareCount
+  visitCount
+  commentCount
+  coAuthors {
+    authorType
+    officialUser {
+      name
+      organization {
+        _id
+        name
+      }
+      _id
+    }
+    doctor {
+      name
+      organization {
+        _id
+        name
+      }
+      _id
+    }
+    expert {
+      name
+      organization {
+        _id
+        name
+      }
+      _id
+    }
+  }
+
+  isBlocked
+  isDeleted
+  createdAt
+  updatedAt
+}

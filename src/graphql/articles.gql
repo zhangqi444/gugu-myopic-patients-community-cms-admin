@@ -1,0 +1,7 @@
+#import "./articleFragment.gql"
+
+query articles ($option: Option!) {
+  articles (option: $option) {
+    ...article
+  }
+}

@@ -1,0 +1,10 @@
+query experts ($option: Option!) {
+  experts (option: $option) {
+    _id
+    name
+    organization {
+      name
+      _id
+    }
+  }
+}

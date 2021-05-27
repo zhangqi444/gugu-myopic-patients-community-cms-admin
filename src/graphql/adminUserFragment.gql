@@ -1,0 +1,7 @@
+  
+fragment user on AdminUser {
+  _id
+  nickname
+  avatar
+  email
+}

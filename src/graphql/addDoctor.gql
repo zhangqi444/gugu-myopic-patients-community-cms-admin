@@ -1,0 +1,7 @@
+#import "./doctorFragment.gql"
+
+mutation addDoctor ($doctorInput: DoctorInput!) {
+  addDoctor (doctorInput: $doctorInput) {
+    ...doctor
+  }
+}

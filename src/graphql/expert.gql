@@ -1,0 +1,7 @@
+#import "./expertFragment.gql"
+
+query expert ($id: ID!) {
+  expert (id: $id) {
+    ...expert
+  }
+}

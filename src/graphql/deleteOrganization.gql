@@ -1,0 +1,7 @@
+#import "./organizationFragment.gql"
+
+mutation deleteOrganization ($id: ID!) {
+  deleteOrganization (id: $id) {
+    ...organization
+  }
+}

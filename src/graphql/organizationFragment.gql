@@ -1,0 +1,24 @@
+fragment organization on Organization {
+  _id
+  name
+  alias
+  property
+  classification
+  avatar
+  introduction
+  registration
+  route
+  type
+  isBlocked
+  isVerified
+  isDeleted
+  createdAt
+  updatedAt
+  otherClassification
+  province
+  phone
+  city
+  location
+  rank
+  website
+}

@@ -1,0 +1,6 @@
+query organizations ($option: Option!) {
+  organizations (option: $option) {
+    _id
+    name
+  }
+}

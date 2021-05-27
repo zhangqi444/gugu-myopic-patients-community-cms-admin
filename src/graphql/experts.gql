@@ -1,0 +1,7 @@
+#import "./expertFragment.gql"
+
+query experts ($option: Option!) {
+  experts (option: $option) {
+    ...expert
+  }
+}

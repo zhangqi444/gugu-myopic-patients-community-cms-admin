@@ -1,0 +1,7 @@
+#import "./officialUserFragment.gql"
+
+query officialUsers ($option: Option!) {
+  officialUsers (option: $option) {
+    ...officialUser
+  }
+}

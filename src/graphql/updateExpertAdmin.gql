@@ -1,0 +1,7 @@
+#import "./expertFragment.gql"
+
+mutation updateExpertAdmin ($id: ID!, $expertInput: ExpertInput!) {
+  updateExpertAdmin (id: $id, expertInput: $expertInput) {
+    ...expert
+  }
+}

@@ -1,0 +1,7 @@
+#import "./expertFragment.gql"
+
+mutation deleteExpertAdmin ($id: ID!) {
+  deleteExpertAdmin (id: $id) {
+    ...expert
+  }
+}

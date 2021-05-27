@@ -1,0 +1,10 @@
+query doctorByName ($name: String!) {
+  doctorByName (name: $name) {
+    _id
+    name
+    organization {
+      name
+      _id
+    }
+  }
+}

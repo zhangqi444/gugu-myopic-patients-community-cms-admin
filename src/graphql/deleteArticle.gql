@@ -1,0 +1,7 @@
+#import "./articleFragment.gql"
+
+mutation deleteArticle ($id: ID!) {
+  deleteArticle (id: $id) {
+    ...article
+  }
+}

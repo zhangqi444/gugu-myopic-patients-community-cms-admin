@@ -1,0 +1,7 @@
+#import "./officialUserFragment.gql"
+
+mutation updateOfficialUser ($id: ID!, $officialUserInput: OfficialUserInput!) {
+  updateOfficialUser (id: $id, officialUserInput: $officialUserInput) {
+    ...officialUser
+  }
+}

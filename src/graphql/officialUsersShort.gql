@@ -1,0 +1,10 @@
+query officialUsers ($option: Option!) {
+  officialUsers (option: $option) {
+    _id
+    name
+    organization {
+      name
+      _id
+    }
+  }
+}
