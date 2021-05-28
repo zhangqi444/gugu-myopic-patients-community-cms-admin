@@ -1,7 +1,7 @@
 import OSS from 'ali-oss';
 
 const client = new OSS({
-  region: 'oss-cn-beijing',
+  region: process.env.VUE_APP_ALIYUN_REGION,
   accessKeyId: process.env.VUE_APP_ALIYUN_ACCESS_KEY_ID,
   accessKeySecret: process.env.VUE_APP_ALIYUN_ACCESS_KEY_SECRET,
   bucket: process.env.VUE_APP_ALIYUN_BUCKET,
