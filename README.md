@@ -2,11 +2,11 @@
 
 
 # 咕咕
-> 儿童青少年近视防控患者社区——基于[vue-admin-template](http://panjiachen.github.io/vue-admin-template)的CMS管理系统
+> The [vue-admin-template](http://panjiachen.github.io/vue-admin-template)based CMS admin system for children myopia control community application.
 >
-> 相关项目 - [微信小程序](https://github.com/zhangqi444/gugu-myopic-patients-community-wechat-miniprogram) | [服务器](https://github.com/zhangqi444/gugu-myopic-patients-community-backend)
+> related projects - [WeChat Mini Program](https://github.com/zhangqi444/gugu-myopic-patients-community-wechat-miniprogram) | [backend](https://github.com/zhangqi444/gugu-myopic-patients-community-backend)
 > 
-> ‼️ **请尽量将本仓库作为示例代码参考，而不是将其用于生产环境**
+> ‼️ **This project is better to be used as sample code for learning purpose, instead of an application in production.**
 
 <p align="left">
   <img src="https://img.shields.io/badge/node-%3E%3D8.9.0-brightgreen"/>
@@ -17,18 +17,26 @@
   <img src="https://img.shields.io/badge/ask%20me-anything-1abc9c.svg" alt="Ask Me Anything." />
 </p>
 
-<a href="https://github.com/zhangqi444/gugu-myopic-patients-community-cms-admin/blob/master/README-zh-CN.md" target="_blank">文档</a>
-|
 <a href="https://github.com/zhangqi444/gugu-myopic-patients-community-cms-admin/" target="_blank">Doc</a>
+|
+<a href="https://github.com/zhangqi444/gugu-myopic-patients-community-cms-admin/blob/master/README-zh-CN.md" target="_blank">中文文档</a>
 
-## 背景
-儿童青少年是祖国的未来和民族的希望。近年来，由于中小学生课内外负担加重，手机、电脑等带电子屏幕产品（以下简称电子产品）的普及，用眼过度、用眼不卫生、缺乏体育锻炼和户外活动等因素，中国儿童青少年近视率居高不下、不断攀升，近视低龄化、重度化日益严重，已成为一个关系国家和民族未来的大问题。
 
-“儿童青少年近视防控”指在政府、学校、医疗卫生机构、家庭、学生等各方面共同努力下，针对儿童青少年，完善眼健康定期筛查制度、建立视力健康档案，培养健康用眼行为、建设视觉友好环境，并对已经近视者采取科学诊疗与矫治。
+## Background
 
-更多信息请参考[这里](https://github.com/zhangqi444/gugu-myopic-patients-community-wechat-miniprogram)。
+### What's myopic control in children？
 
-## 技术栈
+Myopia (or nearsightedness) is very common. One out of two people (50%) have it. With myopia, the eye is longer than normal from front to back, or the cornea (the clear window at the front of the eye) is too steeply curved. This makes things that are far away from you look blurry. Myopia is corrected with glasses, contact lenses or surgery in some cases. Having myopia can increase your chances of having some eye problems later, like cataract, glaucoma and retinal detachment.
+
+Studies show myopia is becoming more common among children. While there is no proven direct link, research suggests that children who spend more time indoors doing near-focused activities (such as computer work, video games, and reading) have higher rates of myopia than those who spend more time outdoors.
+
+Doctors are looking at ways to slow the progression of myopia in children. While myopia cannot be reversed, the goal of treatment is to keep it from getting worse. This can protect a child’s eye health in the future, despite still needing to wear glasses or contact lenses.[1]
+
+[1]. Myopia Control in Children. (2020). Retrieved 28 May 2021, from https://www.aao.org/eye-health/treatments/myopia-control-in-children
+
+Please refer to [this](https://github.com/zhangqi444/gugu-myopic-patients-community-wechat-miniprogram) for more information.
+
+## Tech stack
 
 - [Vue](https://github.com/eggjs/egg) 
 - [graphql](https://apollographql.com/)
@@ -38,11 +46,11 @@
 - [vue-image-crop-upload](https://github.com/dai-siki/vue-image-crop-upload)
 - [dropzone](https://github.com/dropzone/dropzone)
 
-## installation
+## Get start
 
-更多配置与启动方案请参考[vue-admin-template](http://panjiachen.github.io/vue-admin-template)项目中的指引。
+Please refer to [vue-admin-template](http://panjiachen.github.io/vue-admin-template) for the further guidance。
 
-### 环境变量
+### Environment varibles
 ```shell
 export ALIYUN_BUCKET='YOUR_ALIYUN_BUCKET' &&
 export ALIYUN_ACCESS_KEY_SECRET='YOUR_ALIYUN_ACCESS_KEY_SECRET' &&
@@ -50,16 +58,16 @@ export ALIYUN_ACCESS_KEY_ID='YOUR_ALIYUN_ACCESS_KEY_ID' &&
 export ALIYUN_REGION='YOUR_ALIYUN_REGION'
 ```
 
-### 本地测试
-管理后台默认与本地后端服务器通信，因此需要先在本地启动咕咕后端服务器。
+### Local development
 ```shell
-# This will automatically open http://localhost:9528
-
+# The admin portal connects to backend server through localhost by default.
+# The backend server needs to be enabled at localhost first.
+# This will automatically open http://localhost:9528.
 npm install 
 npm run dev
 ```
 
-### 部署
+### Deployment
 
 ```bash
 # build for test environment
@@ -69,14 +77,14 @@ npm run build:stage
 npm run build:prod
 ```
 
-## 讨论
+## Discussions
 
-如您有任何问题，欢迎在项目中提交issue，我会在第一时间给与回复。
+Please open an issue for any questions，and I will respond as soon as possible。
 
-## 贡献者
+## Contributors
 
 [@zhangqi444](https://github.com/zhangqi444), [@happyerqi](https://github.com/happyerqi)
 
-## 📄 协议
+## 📄 License
 
-该项目基于MIT License开源。
+This project is MIT licensed.
