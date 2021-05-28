@@ -75,7 +75,7 @@ npm run build:prod
 
 ## 贡献者
 
-[@zhangqi444](https://github.com/zhangqi444)
+[@zhangqi444](https://github.com/zhangqi444), [@happyerqi](https://github.com/happyerqi)
 
 ## 📄 协议
 
