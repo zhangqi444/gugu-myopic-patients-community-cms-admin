@@ -2,7 +2,7 @@
 
 
 # 咕咕
-> The [vue-admin-template](http://panjiachen.github.io/vue-admin-template)based CMS admin system for children myopia control community application.
+> The [vue-admin-template](http://panjiachen.github.io/vue-admin-template) based CMS admin system for children myopia control community application.
 >
 > related projects - [WeChat Mini Program](https://github.com/zhangqi444/gugu-myopic-patients-community-wechat-miniprogram) | [backend](https://github.com/zhangqi444/gugu-myopic-patients-community-backend)
 > 
